@@ -1,5 +1,5 @@
 # Unstructured-Data-Analysis
-- 非结构化数据分析课程作业
+- 非结构化数据分析期末课程报告
 
 ## [Social Network](https://github.com/Snowing-ST/Unstructured-Data-Analysis/tree/master/social_network)
 - **[基于豆瓣电影演员合作网络的社区发现.pdf](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/social_network/%E5%9F%BA%E4%BA%8E%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%BC%94%E5%91%98%E5%90%88%E4%BD%9C%E7%BD%91%E7%BB%9C%E7%9A%84%E7%A4%BE%E5%8C%BA%E5%8F%91%E7%8E%B0.pdf)**
@@ -22,3 +22,8 @@
 
 ## [Data Stream](https://github.com/Snowing-ST/Unstructured-Data-Analysis/tree/master/data_stream)
 - **[BIRCH与层次聚类算法的比较.pdf](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/data_stream/BIRCH%E4%B8%8E%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E7%9A%84%E6%AF%94%E8%BE%83.pdf)**
+
+- [stream包的应用](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/data_stream/stream.R)
+  - 随机生成数据流```DSD_Gaussians```、数据流写入文件```write_stream```、导入文件形成数据流```DSD_Memory```
+  - 数据流聚类算法```DSC_BIRCH```、```DSC_Hierarchical```
+  - 聚类评价：```evaluate```、```evaluate_cluster```

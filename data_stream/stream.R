@@ -99,24 +99,3 @@ ggplot(df,aes(points,purity,color = method))+geom_line(size=1)
 
 
 
-#草稿
-head(df)
-df1 = rbind(df,df)
-df1[101:150,"method"] = "Kmeans"
-df1[151:200,"method"] = "leader"
-df1[101:150,"silhouette"] = df1[1:50,"silhouette"]-rnorm(50,0.05,0.01)
-df1[151:200,"silhouette"] = df1[51:100,"silhouette"]+rnorm(50,0.05,0.01)
-library(ggplot2)
-ggplot(df1,aes(points,silhouette,color = method))+geom_line(size=1)+
-  theme(plot.title = element_text(hjust = 0.5, size=22,color="blue"),
-        panel.background=element_rect(fill='aliceblue',color='black'),
-        panel.grid.minor = element_blank(),
-        panel.grid.major =element_blank())
-df1[101:150,"purity"] = df1[1:50,"purity"]-rnorm(50,0.05,0.01)
-df1[151:200,"purity"] = df1[51:100,"purity"]+rnorm(50,0.05,0.01)
-names(df1)[4] =  "Calinski_Harabasz"
-ggplot(df1,aes(points,Calinski_Harabasz,color = method))+geom_line(size=1)+
-  theme(plot.title = element_text(hjust = 0.5, size=22,color="blue"),
-        panel.background=element_rect(fill='aliceblue',color='black'),
-        panel.grid.minor = element_blank(),
-        panel.grid.major =element_blank())
