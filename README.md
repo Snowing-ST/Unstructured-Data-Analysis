@@ -23,7 +23,7 @@
 ## [Data Stream](https://github.com/Snowing-ST/Unstructured-Data-Analysis/tree/master/data_stream)
 - **[BIRCH与层次聚类算法的比较.pdf](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/data_stream/BIRCH%E4%B8%8E%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E7%9A%84%E6%AF%94%E8%BE%83.pdf)**
 
-- [stream包的应用](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/data_stream/stream.R)
+- [R语言stream包的应用](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/data_stream/stream.R)
   - 随机生成数据流```DSD_Gaussians```、数据流写入文件```write_stream```、导入文件形成数据流```DSD_Memory```
   - 数据流聚类算法```DSC_BIRCH```、```DSC_Hierarchical```
   - 聚类评价：```evaluate```、```evaluate_cluster```
