@@ -27,3 +27,9 @@
   - 随机生成数据流```DSD_Gaussians```、数据流写入文件```write_stream```、导入文件形成数据流```DSD_Memory```
   - 数据流聚类算法```DSC_BIRCH```、```DSC_Hierarchical```
   - 聚类评价：```evaluate```、```evaluate_cluster```
+
+## [Text Analysis]()
+- [基于spark mllib库的垃圾短信识别]()
+- 数据集下载地址：
+
+  链接:https://pan.baidu.com/s/18OpmP9F2Ef5rHqMI7QEp2A 提取码: f69z 
