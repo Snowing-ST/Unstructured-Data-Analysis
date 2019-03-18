@@ -28,8 +28,10 @@
   - 数据流聚类算法```DSC_BIRCH```、```DSC_Hierarchical```
   - 聚类评价：```evaluate```、```evaluate_cluster```
 
-## [Text Analysis]()
-- [基于spark mllib库的垃圾短信识别]()
-- 数据集下载地址：
+## [Text Analysis](https://github.com/Snowing-ST/Unstructured-Data-Analysis/tree/master/text_analysis)
+- [基于spark mllib库的垃圾短信识别](https://github.com/Snowing-ST/Unstructured-Data-Analysis/blob/master/text_analysis/%E5%9F%BA%E4%BA%8Espark%20mllib%E5%BA%93%E7%9A%84%E5%9E%83%E5%9C%BE%E7%9F%AD%E4%BF%A1%E8%AF%86%E5%88%AB.pdf)
+  - spark的详细安装过程
+  - 文本分类
+- 垃圾短信数据集下载地址：
 
   链接:https://pan.baidu.com/s/18OpmP9F2Ef5rHqMI7QEp2A 提取码: f69z 
